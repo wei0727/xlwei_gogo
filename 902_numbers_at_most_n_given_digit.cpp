@@ -1,3 +1,10 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <utility>
+#include "leetcode.h"
+using namespace std;
+
 class Solution {
 public:
     int atMostNGivenDigitSet(vector<string>& digits, int n) {
